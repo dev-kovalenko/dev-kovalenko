@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+body {
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+section {
+    text-align: justify;
+}
+
+label {
+    h3 {
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #07467B;
+        display: block;
+        float: left;
+        height: 25px;
+        line-height: 25px;
+        width: 300px;
+    }
+}

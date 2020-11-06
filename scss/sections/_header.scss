@@ -1,0 +1,80 @@
+.header {
+    
+    &-content {
+        height: 182px;
+        
+        background-image: url('/public/img/header-background-image.jpg') !important;
+        background-size: 292px 182px ;
+        background-repeat: no-repeat;
+        background-position: right;
+
+        &__my-photo {
+            height: 128px;
+            width: 128px;
+
+            img {
+                border-radius: 50%;
+            }
+
+            margin: 27px;
+            float: left;
+
+        }
+
+        &__my-contacts {
+
+            margin-top: 44px;
+            height: 128px;
+            float: left;
+
+            h1 {
+                color: #084581;
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+            h2 {
+                color: #88B3DF;
+                font-size: 14px;
+                font-style: italic;
+                margin-top: 3px;
+
+                span {
+                    color: #22333E;
+                }
+            }
+
+
+            ul li {
+                display: block;
+                height: 10px;
+                font-size: 10px;
+                padding-left: 13px;
+                margin-top: 7px;
+                color: #22333E;
+                background: url('/public/img/contacts-list-icon.svg') no-repeat;
+            }
+
+            &-li-location {
+                background-position: 0 0 !important;
+            }
+
+            &-li-email {
+                background-position: 0 -10px !important;
+            }
+
+            &-li-skype {
+                background-position: 0 -20px !important;
+            }
+
+            &-li-linkedin {
+                background-position: 0 -30px !important;
+            }
+            
+        }
+    }
+    
+
+}
+
+

@@ -1,0 +1,48 @@
+$border-color: #DAD5BF;
+
+.my-talent-section {
+
+    // .my-talent-section__label-icon
+    &__label-icon {
+        background-position: 0 -150px; 
+    }
+
+    // .my-talent-section__draw-soft-list
+    &__draw-soft-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 7px;
+        margin-top: 11px;
+    
+        > div {
+            > div {
+                background: #fff;
+                border: 1px solid $border-color;
+                padding: 12px 5px;
+        
+                img {
+                    width: 26px;
+                    display: block;
+                    margin: 0 auto;
+                }
+        
+                span {
+                    font-size: 7px;
+                    text-align: center;
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+    
+            > span {
+                display: block;
+                text-align: center;
+                color: #7E7B7B;
+                margin-top: 7px;
+                font-size: 9px;
+            }
+        } 
+    }
+    
+
+}

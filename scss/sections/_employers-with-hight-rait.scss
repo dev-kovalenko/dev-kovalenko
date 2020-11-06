@@ -1,0 +1,84 @@
+$border-color: #DAD5BF;
+
+
+.employers-with-hight-rait-section {
+
+    // .employers-with-hight-rait-section__label-icon
+    &__label-icon {
+        background-position: 0 -50px; 
+    }
+
+    // .employers-with-hight-rait-section__item-list-container
+    &__item-list-container {
+        margin-top: 12px;
+    }
+
+    // .employers-with-hight-rait-section__item
+    &__item {
+        border-bottom: 1px solid $border-color;
+        padding-bottom: 7px;
+        margin-bottom: 12px;
+
+        &:last-child {
+            border: none;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+
+        > div {
+            float: left;
+            width: 264px;
+            > span:last-child {
+                font-size: 9px;
+                display: block;
+                color: #7E7B7B;
+                margin-top: 4px;
+            }
+        }
+    }
+
+    // .employers-with-hight-rait-section__item-img-link
+    &__item-img-link {
+        display: block;
+        width: 92px;
+        float: left;
+        margin-right: 8px;
+
+        img {
+            background: #fff;
+            display: block;
+            width: 92px;
+            height: 50px;
+            border: 1px solid $border-color;
+            margin-bottom: 4px;
+        }
+
+        span {
+            display: block;
+            text-align: center;
+            color: #7E7B7B;
+            font-size: 10px;
+            padding-top: 2px;
+        }
+    }
+
+    // .employers-with-hight-rait-section__item-label-link
+    &__item-label-link {
+        display: block;
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        span {
+            &:first-child {
+                color: #393937;
+            }
+            color: #7E7B7B;
+        }
+
+        margin-bottom: 5px;
+
+    }
+
+}
